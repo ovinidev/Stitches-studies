@@ -3,12 +3,20 @@
 ### **Podemos usar o vite para criar os projetos**
 
 ```
-yarn create vite . --template react-ts
-yarn
-yarn dev
+Criar o projeto
+yarn create vite . --template react-ts 
+Instalar as dependências
+yarn 
+Iniciar aplicação
+yarn dev 
 Acessar o http://localhost:3000/
 ```
 
+### Instalando o React Router Dom
+```
+yarn add react-router-dom  
+yarn add @types/styled-components
+```
 
 
 
