@@ -6,8 +6,9 @@
 yarn create vite . --template react-ts
 yarn
 yarn dev
+Acessar o http://localhost:3000/
 ```
 
-### acessar o http://localhost:3000/
+
 
 
