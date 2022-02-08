@@ -15,7 +15,6 @@ Acessar o http://localhost:3000/
 ### Instalando o React Router Dom
 ```
 yarn add react-router-dom  
-yarn add @types/styled-components
 ```
 
 ### Instalando o Stitches
