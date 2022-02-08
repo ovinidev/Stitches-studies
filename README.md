@@ -18,5 +18,7 @@ yarn add react-router-dom
 yarn add @types/styled-components
 ```
 
-
-
+### Instalando o Stitches
+```
+yarn add @stitches/react
+```

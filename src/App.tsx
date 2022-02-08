@@ -1,16 +1,18 @@
 import { MainRoutes } from "./Routes";
 import { BrowserRouter as Router } from "react-router-dom";
-import styled from 'styled-components';
+import { globalStyles } from "./styles/global";
+import { light } from './styles/themes/light'
+import { dark } from './styles/themes/dark'
 
-const Title = styled.h1`
-  color: red;
-`
 function App() {
 
   return (
     <Router>
-      <MainRoutes />
-      <Title>Oi</Title>
+      <div className={light}>
+        <MainRoutes />
+
+      </div>
+      {globalStyles()}
     </Router>
   )
 }
