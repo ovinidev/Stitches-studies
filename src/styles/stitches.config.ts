@@ -54,23 +54,23 @@ export const {
   },
   theme: {
     colors: {
-      gray500: '',
-      blue500: '',
-      purple500: '',
-      green500: '',
-      red500: '',
+      primary: '',
+      secondary: '',
+      tertiary: '',
+      purple: '',
+      red: '',
     },
     space: {
-      1: '4rem',
-      2: '6rem',
-      3: '8rem',
+      1: '2rem',
+      2: '4rem',
+      3: '6rem',
       4: '8rem',
-      5: '8rem',
     },
     fontSizes: {
       1: '1.6rem',
       2: '2.2rem',
-      3: '3rem',
+      3: '2.6rem',
+      4: '3rem',
     },
     fonts: {
       untitled: 'Untitled Sans, apple-system, sans-serif',
@@ -97,7 +97,7 @@ export const {
       9: '5px',
     },
     radii: {
-      7: '50px'
+      7: '6px'
     },
     shadows: {},
     zIndices: {},

@@ -3,12 +3,12 @@ import {
   Route,
 } from "react-router-dom";
 
-import { Variants } from "./pages/Variants";
+import { MainPage } from "./pages/MainPage";
 
 export function MainRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Variants />} />
+      <Route path="/" element={<MainPage />} />
     </Routes>
   )
 }

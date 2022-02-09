@@ -1,6 +1,6 @@
 {
-  "name": "react-2022",
-  "version": "0.0.0",
+  "name": "stitches",
+  "version": "1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

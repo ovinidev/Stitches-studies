@@ -7,13 +7,12 @@ import { dark } from './styles/themes/dark';
 function App() {
 
   return (
-    <Router>
-      <div className={dark}>
+    <div className={dark}>
+      <Router>
         <MainRoutes />
-
-      </div>
-      {globalStyles()}
-    </Router>
+        {globalStyles()}
+      </Router>
+    </div>
   )
 }
 
