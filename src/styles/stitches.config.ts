@@ -61,14 +61,16 @@ export const {
       red500: '',
     },
     space: {
-      1: '5px',
-      2: '10px',
-      3: '15px',
+      1: '4rem',
+      2: '6rem',
+      3: '8rem',
+      4: '8rem',
+      5: '8rem',
     },
     fontSizes: {
-      1: '12px',
-      2: '13px',
-      3: '15px',
+      1: '1.6rem',
+      2: '2.2rem',
+      3: '3rem',
     },
     fonts: {
       untitled: 'Untitled Sans, apple-system, sans-serif',
@@ -80,12 +82,23 @@ export const {
       bp3: '(min-width: 1024px)',
     },
     fontWeights: {},
-    lineHeights: {},
+    lineHeights: {
+      8: '2px',
+    },
     letterSpacings: {},
-    sizes: {},
-    borderWidths: {},
-    borderStyles: {},
-    radii: {},
+    sizes: {
+      1: '2rem',
+      2: '2rem',
+    },
+    borderWidths: {
+      5: '5px',
+    },
+    borderStyles: {
+      9: '5px',
+    },
+    radii: {
+      7: '50px'
+    },
     shadows: {},
     zIndices: {},
     transitions: {},

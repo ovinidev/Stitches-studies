@@ -12,4 +12,10 @@ export const globalStyles = globalCss({
     scrollBehavior: 'smooth',
   },
 
+  '@media(min-width: 1080px)': {
+    'html': {
+      fontSize: '93.75%',
+    }
+  }
+
 });

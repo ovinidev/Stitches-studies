@@ -1,10 +1,11 @@
 import { styled } from '../../styles/stitches.config';
 
 export const Button = styled('button', {
-  borderRadius: 3,
   border: 'none',
   cursor: 'pointer',
-  margin: '$3',
+  margin: '$1',
+  fontSize: '$1',
+  borderRadius: '$7',
 
   // '@media (min-width: 768px)': {
   //   background: 'red',
@@ -39,8 +40,7 @@ export const Button = styled('button', {
     },
     size: {
       small: {
-        height: '2rem',
-        width: '6rem',
+        size: '8rem'
       },
       medium: {
         height: '4rem',
@@ -65,7 +65,7 @@ export const Button = styled('button', {
 
   defaultVariants: {
     color: 'purple',
-    size: 'medium',
+    size: 'small',
   },
 
   compoundVariants: [
