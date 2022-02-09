@@ -4,32 +4,36 @@ export const Button = styled('button', {
   borderRadius: 3,
   border: 'none',
   cursor: 'pointer',
-  margin: 10,
+  margin: '$3',
+
+  // '@media (min-width: 768px)': {
+  //   background: 'red',
+  // },
 
   variants: {
     color: {
       purple: {
-        color: 'purple',
+        color: '$red500',
         '&:hover': {
-          color: 'black',
+          color: '$red500',
         }
       },
       red: {
-        color: 'red',
+        color: '$blue500',
         '&:hover': {
-          color: 'white',
+          color: '$blue500',
         }
       },
       black: {
-        color: 'black',
+        color: '$purple500',
         '&:hover': {
-          color: 'red',
+          color: '$purple500',
         }
       },
       blue: {
-        color: 'blue',
+        color: '$green500',
         '&:hover': {
-          color: 'pink',
+          color: '$green500',
         }
       },
     },

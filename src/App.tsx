@@ -2,13 +2,13 @@ import { MainRoutes } from "./Routes";
 import { BrowserRouter as Router } from "react-router-dom";
 import { globalStyles } from "./styles/global";
 import { light } from './styles/themes/light'
-import { dark } from './styles/themes/dark'
+import { dark } from './styles/themes/dark';
 
 function App() {
 
   return (
     <Router>
-      <div className={light}>
+      <div className={dark}>
         <MainRoutes />
 
       </div>
