@@ -7,7 +7,7 @@ import { dark } from './styles/themes/dark';
 function App() {
 
   return (
-    <div className={dark}>
+    <div className={light}>
       <Router>
         <MainRoutes />
         {globalStyles()}

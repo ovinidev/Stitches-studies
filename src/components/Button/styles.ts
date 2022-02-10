@@ -19,31 +19,36 @@ export const StitchesButton = styled('button', {
 
   variants: {
     color: {
-      purple: {
+      primary: {
+        background: '$primary',
         color: '$',
+        transition: 'all .6s ease-in-out',
         '&:hover': {
+          background: '$purple',
+          color: '#fff'
         }
       },
-      red: {
+      secondary: {
+        background: '$secondary',
         color: '$',
+        transition: 'all .2s ease-in',
         '&:hover': {
+          background: '$red',
         }
       },
-      black: {
+      tertiary: {
+        background: '$tertiary',
         color: '$',
+        transition: 'all .8s ease',
         '&:hover': {
-        }
-      },
-      blue: {
-        color: '$',
-        '&:hover': {
+          background: '$primary',
         }
       },
     },
   },
 
   defaultVariants: {
-    color: '',
+    color: 'primary',
   },
 
   compoundVariants: [

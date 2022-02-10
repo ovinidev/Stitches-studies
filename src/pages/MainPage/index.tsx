@@ -5,7 +5,12 @@ export const MainPage = () => {
   return (
     <Container>
       <ButtonContainer>
-        <Button disabled onClick={() => console.log('oi')}>purple small</Button>
+        <Button color={'primary'}>primary</Button>
+        <Button color={'secondary'}>secondary</Button>
+        <Button color={'tertiary'}>tertiary</Button>
+        <Button>default</Button>
+        <Button>default</Button>
+        <Button>default</Button>
       </ButtonContainer>
     </Container>
   )

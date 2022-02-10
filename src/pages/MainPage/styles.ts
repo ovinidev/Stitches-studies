@@ -11,7 +11,8 @@ export const ButtonContainer = styled('div', {
   display: 'grid',
   justifyContent: 'center',
   alignItems: 'center',
-  gridTemplateColumns: '1fr 1fr',
-  width: '40vw',
-  gap: '2rem'
+  gridTemplateColumns: '1fr 1fr 1fr',
+  width: '60vw',
+  mt: '5rem',
+  gap: '1rem'
 });
