@@ -1,10 +1,10 @@
-import {styled} from '../../styles/stitches.config';
+import { styled } from '../../styles/stitches.config';
 
 export const StitchesButton = styled('button', {
   border: 'none',
   fontSize: '$1',
   borderRadius: '$7',
-  
+
   '&:disabled': {
     color: '#fff',
     background: '$purple',
@@ -16,7 +16,7 @@ export const StitchesButton = styled('button', {
       primary: {
         fontFamily: '$mono',
         background: '$primary',
-        color: '$',
+        color: '$white',
         transition: 'all .6s ease-in-out',
         '&:hover': {
           background: '$purple',
@@ -29,7 +29,7 @@ export const StitchesButton = styled('button', {
       secondary: {
         fontFamily: '$untitled',
         background: '$secondary',
-        color: '$',
+        color: '$tertiary',
         transition: 'all .2s ease-in',
         '&:hover': {
           background: '$red',
@@ -38,10 +38,10 @@ export const StitchesButton = styled('button', {
       tertiary: {
         fontFamily: 'fantasy',
         background: '$tertiary',
-        color: '$',
+        color: '$primary',
         transition: 'all .8s ease',
         '&:hover': {
-          background: '$primary',
+          background: '$secondary',
         },
       },
     },
