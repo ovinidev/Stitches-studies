@@ -1,4 +1,4 @@
-# React in 2022
+# Stitches and Vite
 
 ### **Podemos usar o vite para criar os projetos**
 
