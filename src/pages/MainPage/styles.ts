@@ -1,10 +1,10 @@
-import { styled } from '../../styles/stitches.config';
+import {styled} from '../../styles/stitches.config';
 
 export const Container = styled('div', {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  width: '100vw'
+  width: '100vw',
 });
 
 export const ButtonContainer = styled('div', {
@@ -12,7 +12,7 @@ export const ButtonContainer = styled('div', {
   justifyContent: 'center',
   alignItems: 'center',
   gridTemplateColumns: '1fr 1fr 1fr',
-  width: '60vw',
+  width: '40rem',
   mt: '5rem',
-  gap: '1rem'
+  gap: '1rem',
 });

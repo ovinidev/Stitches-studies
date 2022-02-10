@@ -1,6 +1,6 @@
-import { StitchesButton } from "./styles";
-import { VariantProps } from '@stitches/react';
-import { ReactNode } from "react";
+import {StitchesButton} from './styles';
+import {VariantProps} from '@stitches/react';
+import {ReactNode} from 'react';
 
 interface ButtonProps extends VariantProps<typeof StitchesButton> {
   text?: string;
@@ -9,10 +9,10 @@ interface ButtonProps extends VariantProps<typeof StitchesButton> {
   disabled?: boolean;
 }
 
-export const Button = ({ children, ...rest }: ButtonProps) => {
+export const Button = ({children, ...rest}: ButtonProps) => {
   return (
     <StitchesButton {...rest}>
       {children}
     </StitchesButton>
-  )
-}
+  );
+};

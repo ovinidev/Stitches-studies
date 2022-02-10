@@ -1,5 +1,5 @@
-import { Button } from "../../components/Button"
-import { ButtonContainer, Container } from "./styles"
+import {Button} from '../../components/Button';
+import {ButtonContainer, Container} from './styles';
 
 export const MainPage = () => {
   return (
@@ -13,5 +13,5 @@ export const MainPage = () => {
         <Button>default</Button>
       </ButtonContainer>
     </Container>
-  )
-}
+  );
+};
