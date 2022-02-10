@@ -1,4 +1,3 @@
-import { styled } from '@stitches/react';
 import { StyledSwitch, StyledThumb, Flex, Label } from './styles';
 
 export const Switch = () => (
