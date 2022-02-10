@@ -2,7 +2,7 @@ import { Button } from '../../components/Button';
 import { Title } from '../../components/Title';
 import { ButtonContainer, Container } from './styles';
 
-export const MainPage = () => {
+export const Stitches = () => {
   return (
     <Container>
       <Title text={'Color variant'} />

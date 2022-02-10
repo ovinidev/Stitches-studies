@@ -3,12 +3,14 @@ import {
   Route,
 } from "react-router-dom";
 
-import { MainPage } from "./pages/MainPage";
+import { Stitches } from "./pages/Stitches";
+import { Radix } from "./pages/Radix";
 
 export function MainRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<MainPage />} />
+      <Route path="/" element={<Stitches />} />
+      <Route path="/radix" element={<Radix />} />
     </Routes>
   )
 }
