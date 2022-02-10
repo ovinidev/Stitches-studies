@@ -4,8 +4,6 @@ export const StitchesButton = styled('button', {
   border: 'none',
   fontSize: '$1',
   borderRadius: '$7',
-  height: '4rem',
-  width: '12rem',
   
   '&:disabled': {
     color: '#fff',
@@ -47,10 +45,25 @@ export const StitchesButton = styled('button', {
         },
       },
     },
+    size: {
+      small: {
+        height: '4rem',
+        width: '12rem',
+      },
+      medium: {
+        height: '4.5rem',
+        width: '14rem',
+      },
+      large: {
+        height: '5rem',
+        width: '16rem',
+      }
+    }
   },
 
   defaultVariants: {
     color: 'primary',
+    size: 'small'
   },
 
   compoundVariants: [
