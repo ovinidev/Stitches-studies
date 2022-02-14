@@ -7,18 +7,18 @@ export const globalStyles = globalCss({
     boxSizing: 'border-box',
   },
 
-  'html': {
+  html: {
     fontSize: '62.5%',
     scrollBehavior: 'smooth',
   },
 
-  'button': {
-    cursor: 'pointer'
+  button: {
+    cursor: 'pointer',
   },
 
   '@media(min-width: 1080px)': {
-    'html': {
-    }
-  }
+    html: {
+    },
+  },
 
 });

@@ -1,4 +1,4 @@
-import { styled } from "../../styles/stitches.config";
+import { styled } from '../../styles/stitches.config';
 
 export const StitchesTitle = styled('h1', {
   mb: '1rem',
@@ -27,13 +27,13 @@ export const StitchesTitle = styled('h1', {
       },
       large: {
         fontSize: '$3',
-      }
+      },
     },
     uppercase: {
       true: {
         textTransform: 'uppercase',
-      }
-    }
+      },
+    },
   },
 
   compoundVariants: [
@@ -44,15 +44,14 @@ export const StitchesTitle = styled('h1', {
       css: {
         background: '$purple',
         color: '$white',
-        fontSize: '$4'
-      }
+        fontSize: '$4',
+      },
     },
   ],
-
 
   defaultVariants: {
     font: 'secondary',
     size: 'large',
-  }
+  },
 
-})
+});

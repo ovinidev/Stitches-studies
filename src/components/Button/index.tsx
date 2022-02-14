@@ -1,18 +1,15 @@
-import {StitchesButton} from './styles';
-import {VariantProps} from '@stitches/react';
-import {ReactNode} from 'react';
+/* eslint-disable react/require-default-props */
+import { VariantProps } from '@stitches/react';
+import { ReactNode } from 'react';
+import { StitchesButton } from './styles';
 
 interface ButtonProps extends VariantProps<typeof StitchesButton> {
-  text?: string;
   onClick?: () => void;
   children: ReactNode;
-  disabled?: boolean;
 }
 
-export const Button = ({children, ...rest}: ButtonProps) => {
-  return (
-    <StitchesButton {...rest}>
-      {children}
-    </StitchesButton>
-  );
-};
+export const Button = ({ children, ...rest }: ButtonProps) => (
+  <StitchesButton {...rest}>
+    {children}
+  </StitchesButton>
+);

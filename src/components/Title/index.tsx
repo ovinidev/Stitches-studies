@@ -1,14 +1,12 @@
-import { StitchesTitle } from "./styles";
 import { VariantProps } from '@stitches/react';
+import { StitchesTitle } from './styles';
 
 interface TitleProps extends VariantProps<typeof StitchesTitle> {
   text: string;
 }
 
-export const Title = ({ text, ...rest }: TitleProps) => {
-  return (
-    <StitchesTitle {...rest}>
-      {text}
-    </StitchesTitle>
-  )
-}
+export const Title = ({ text, ...rest }: TitleProps) => (
+  <StitchesTitle {...rest}>
+    {text}
+  </StitchesTitle>
+);

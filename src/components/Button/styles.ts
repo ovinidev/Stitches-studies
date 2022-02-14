@@ -57,13 +57,13 @@ export const StitchesButton = styled('button', {
       large: {
         height: '5rem',
         width: '16rem',
-      }
-    }
+      },
+    },
   },
 
   defaultVariants: {
     color: 'primary',
-    size: 'small'
+    size: 'small',
   },
 
   compoundVariants: [

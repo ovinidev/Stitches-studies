@@ -1,6 +1,8 @@
-import {styled} from '../../styles/stitches.config';
 import * as SwitchPrimitive from '@radix-ui/react-switch';
-import { violet, mauve, blackA, whiteA } from '@radix-ui/colors';
+import {
+  violet, mauve, blackA, whiteA,
+} from '@radix-ui/colors';
+import { styled } from '../../styles/stitches.config';
 
 export const StyledSwitch = styled(SwitchPrimitive.Root, {
   all: 'unset',
@@ -11,7 +13,7 @@ export const StyledSwitch = styled(SwitchPrimitive.Root, {
   position: 'relative',
   boxShadow: `0 2px 10px ${blackA.blackA7}`,
   WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
-  '&:focus': { boxShadow: `0 0 0 2px black` },
+  '&:focus': { boxShadow: '0 0 0 2px black' },
   '&[data-state="checked"]': { backgroundColor: '$primary' },
 });
 

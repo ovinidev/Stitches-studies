@@ -1,4 +1,4 @@
-import { createTheme } from "../stitches.config";
+import { createTheme } from '../stitches.config';
 
 export const dark = createTheme({
   colors: {
@@ -7,7 +7,7 @@ export const dark = createTheme({
     tertiary: '#17202A',
     purple: '#4A235A',
     red: '#641E16',
-    white: '#fff'
+    white: '#fff',
   },
 
 });
