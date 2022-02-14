@@ -10,7 +10,7 @@
     "@fluentui/react": "^8.53.0",
     "@radix-ui/colors": "^0.1.8",
     "@radix-ui/react-switch": "^0.1.4",
-    "@stitches/react": "https://gitpkg.now.sh/withneutron/stitches/packages/react?release/749_Temp-release",
+    "@stitches/react": "^1.2.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1"

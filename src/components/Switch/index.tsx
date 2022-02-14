@@ -1,7 +1,7 @@
 import { StyledSwitch, StyledThumb, Flex, Label } from './styles';
 
 export const Switch = () => (
-  <Flex css={{ alignItems: 'center' }}>
+  <Flex style={{ alignItems: 'center' }}>
     <StyledSwitch defaultChecked id="s1">
       <StyledThumb />
     </StyledSwitch>
