@@ -97,10 +97,10 @@ export const {
       9: '5px',
     },
     radii: {
-      7: '6px'
+      7: '6px',
     },
     shadows: {},
     zIndices: {},
     transitions: {},
-  }
+  },
 });
